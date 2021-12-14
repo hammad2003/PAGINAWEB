@@ -10,12 +10,38 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
-.item img{
-  position: relative;
-  left: 4em;
+.item {
+  border: 5px solid yellow;
+  background-color: orange;
+  text-overflow: clip;
+  color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 18em;
+}
 
+.f{
+text-align: center;
+padding-bottom: 1em;
+border-bottom: 1px solid black;
+}
+
+.imagen img{
+  position: relative;
+  border: 5px solid yellow;
+}
+
+.imagen {
+  text-align: center;
+}
+
+.wow p{
+  border: 5px solid yellow;
+  padding: 0.2em;
 
 }
+
+
 
 /*
 #header { grid-area: h}
